@@ -46,6 +46,9 @@ The chosen model for this project is SSD MobileNetV2, a state-of-the-art deep ne
 
 The model achieves accurate pothole detection on the provided dataset, with a focus on minimizing false positives and false negatives.
 
+![Pothole Detection Example](CustomTF2_2/result.png)
+
+
 ## Acknowledgments
 
 - The pretrained SSD MobileNetV2 model is sourced from TensorFlow's model zoo.
