@@ -8,12 +8,7 @@ This project focuses on detecting potholes in road images using computer vision 
 
 The dataset consists of 665 images of roads with labeled potholes. The dataset is available on [Roboflow](https://public.roboflow.com/object-detection/pothole), making it accessible for training and evaluation.
 
-## Model Architecture
-
-The chosen model for this project is SSD MobileNetV2, a state-of-the-art deep neural network that balances speed and accuracy. The model is pretrained on a large dataset and fine-tuned on the pothole detection dataset.
-
-
-
+## Directory Structure
 ```
 -CustomTF2_2/
 │
@@ -41,7 +36,27 @@ The chosen model for this project is SSD MobileNetV2, a state-of-the-art deep ne
 │   ├── train
 │   │   ├── events
 │   ├── checkpoint
+```
 
-├── README.md
- └── ...
+## Model Architecture
+
+The chosen model for this project is SSD MobileNetV2, a state-of-the-art deep neural network that balances speed and accuracy. The model is pretrained on a large dataset and fine-tuned on the pothole detection dataset.
+
+## Results
+
+The model achieves accurate pothole detection on the provided dataset, with a focus on minimizing false positives and false negatives.
+
+## Acknowledgments
+
+- The pretrained SSD MobileNetV2 model is sourced from TensorFlow's model zoo.
+- The pothole detection dataset is provided by Roboflow.
+
+## Future Work
+
+Future enhancements may include:
+
+- Fine-tuning the model on additional datasets for improved generalization.
+- Deploying the model for real-time pothole detection in a practical setting.
+
+
 
