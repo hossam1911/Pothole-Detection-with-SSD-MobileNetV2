@@ -1,32 +1,31 @@
 ```
-project-root/
+-CustomTF2_2/
 │
 ├── data/
 │   ├── train/
-│   │   ├── image1.jpg
-│   │   ├── image2.jpg
+│   │   ├── image1.xml
+│   │   ├── image2.xml
 │   │   └── ...
 │   ├── test/
-│   │   ├── image3.jpg
-│   │   ├── image4.jpg
+│   │   ├── image3.xml
+│   │   ├── image4.xml
 │   │   └── ...
-│
-├── src/
-│   ├── main.py
-│   ├── utils/
-│   │   ├── helper.py
-│   │   └── ...
-│   └── ...
-│
-├── models/
-│   ├── model1/
-│   │   ├── weights.h5
-│   │   └── ...
-│   ├── model2/
-│   │   ├── weights.h5
-│   │   └── ...
-│   └── ...
-│
+│   ├── inference_graph/
+│   │   ├── checkpoint
+│   │   ├── eval
+│   │   ├── Saved_model 
+│   │   └── pipline config
+
+│   ├── label_map.pbtxt
+│   ├── ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8.config
+│   ├── train_labels.csv
+│   ├── test_labels.csv
+├── training/
+│   ├── eval
+│   ├── train
+│   │   ├── events
+│   ├── checkpoint
+
 ├── README.md
  └── ...
 
