@@ -1,4 +1,4 @@
-''''
+```
 project-root/
 │
 ├── data/
@@ -28,5 +28,5 @@ project-root/
 │   └── ...
 │
 ├── README.md
-└── ...
-''''
+ └── ...
+
